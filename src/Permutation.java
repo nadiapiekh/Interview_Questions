@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Permutation {
     /*
-    4. Array -- Permutation combinations
+    14. Array -- Permutation combinations
 Given an array of 3 characters print all permutation combinations from the given characters.
     PSEUDO CODE:
     ask user to enter a string and send this string to Permutation method.
