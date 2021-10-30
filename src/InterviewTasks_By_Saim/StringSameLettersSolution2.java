@@ -3,6 +3,7 @@ package InterviewTasks_By_Saim;
 import java.util.Arrays;
 import java.util.TreeSet;
 
+
 public class StringSameLettersSolution2 {
     public static boolean Same(String str1, String str2) {
         str1 = new TreeSet<String>(Arrays.asList(str1.split(""))).toString();
