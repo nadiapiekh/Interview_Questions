@@ -18,6 +18,17 @@ public class MoveZeros {
         at the end of for loop return array
     print new array
      */
+
+    /*
+    Mentor's explanation:
+    check if the numbers are the same:
+    sort the array [1,5,2,4] => [1,2,4,5] if (arr[j] !=arr [j+1]) we can loop only until the second one
+    if condition is not met => we create a array randomly again
+    if the condition is false then we will make sure that the three numbers in the array are positive if (arr[i] >0)
+    we create an array randomly
+    we insert 3 random values to arr [0] -arr [2]
+    and then the forth number will be the sum of all the three previous numbers but its sign will be flipped
+     */
     public static int[] MoveZeros(int[] arr){
         int pos= arr.length-1;
         for (int i = 0; i < arr.length; i++) {
