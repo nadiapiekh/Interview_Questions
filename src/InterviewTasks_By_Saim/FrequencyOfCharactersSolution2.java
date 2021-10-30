@@ -1,4 +1,4 @@
-package InterviewTasks_By_Saim.FrequencyOfCharacters;
+package InterviewTasks_By_Saim;
 
 public class FrequencyOfCharactersSolution2 {
     public static String FrequencyOfChars(String str) {

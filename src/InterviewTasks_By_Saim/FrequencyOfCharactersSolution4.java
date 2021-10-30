@@ -1,4 +1,4 @@
-package InterviewTasks_By_Saim.FrequencyOfCharacters;
+package InterviewTasks_By_Saim;
 
 import java.util.Arrays;
 import java.util.Collections;
