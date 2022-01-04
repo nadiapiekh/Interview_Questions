@@ -1,6 +1,12 @@
 package InterviewTasks_By_Saim;
 
 public class FrequencyOfCharactersSolution1 {
+
+    public static void main(String[] args) {
+        System.out.println(FrequencyOfChars("Nadiia"));
+    }
+
+
     public static String FrequencyOfChars(String str) {
         String nonDup = "";
         for(int i=0; i < str.length(); i++)
